@@ -15,7 +15,7 @@ from pathlib import Path
 import sys
 sys.path.append('faceswap')
 
-from lib.cli import FullHelpArgumentParser
+from lib.util import FullHelpArgumentParser
 from scripts.extract import ExtractTrainingData
 from scripts.train import TrainingProcessor
 from scripts.convert import ConvertImage
